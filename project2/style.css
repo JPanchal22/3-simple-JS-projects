@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Hack, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#info div{
+	background: blue;
+	color: white;
+	padding: 3rem;
+	margin: 1rem;
+	font-size: 1rem;
+	border-radius: 10px;
+	box-shadow: 5px 0 10px black;
+	text-align: center;
+}
